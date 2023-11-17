@@ -1,0 +1,79 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 19 de out de 2023, 14:12:34
+    Author     : Secretaria Av
+*/
+
+HTML{
+    SCROLL-BEHAVIOR:SMOOTH;
+}
+
+div{
+    float:left;
+}
+.geral{
+    width:100%;
+}
+.lateral{
+    width:20%;
+    height:100%;
+    background-color:burlywood;
+    color: brown;
+    position: fixed;
+}
+.conteudo{
+    width:80%;
+    height:100%;
+    background-color:thistle;
+    margin-left: 20%;
+    padding: 1%;
+}
+
+.foto{
+    width:150px;
+    height:150px;
+    margin:15px;
+    border-radius:50%;
+    background-image: url('bianca.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+H1{
+    TEXT-ALIGN:center;
+}
+
+H2{
+    TEXT-ALIGN:CENTER;
+    BACKGROUND-COLOR:wheat;
+    COLOR:RED;
+}
+
+OL LI{
+    LIST-STYLE:NONE;
+}
+OL LI A{
+    TEXT-DECORATION: NONE;
+    color:beige;
+}
+
+OL LI A:hover{
+    border-bottom: 2px solid wheat;
+}
+
+@MEDIA SCREEN AND (MAX-WIDTH:850PX){
+    .lateral{
+        WIDTH:100%;
+        HEIGHT:30%;
+        position: sticky;
+    }
+    .conteudo{
+        WIDTH:100%;
+        height:100%;
+        margin-left:0%
+    }
+}
+
